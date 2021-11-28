@@ -1,0 +1,58 @@
+body{
+    background: violet;
+}
+.back a button:hover{
+    color: white;
+    background: red;
+}
+.class{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.group{
+    list-style: none;
+    text-align: center;
+    margin-top: 25px;
+}
+.group ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.group ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.group ul li a:hover{
+    background: rgb(255, 14, 14);
+    color: rgb(255, 255, 255);
+}
+.group ul li ul{
+    position: absolute;
+    padding: 5px 8px;
+    background: rgb(237, 245, 130);
+    left:-9999px ;
+}
+.group ul li:hover ul{
+    left: 0px;
+}
+.group ul li ul li{
+    padding:10px 0px;
+}
+footer{
+    margin-top: 460px;
+    background: rgb(25, 99, 93);
+    width: 100%;
+    height: 65px;
+    text-align: center;
+}
+.footer-text{
+    color: rgb(206, 15, 15);
+    text-shadow: 2px 2px rgb(228, 192, 95);
+    line-height: 1;
+}

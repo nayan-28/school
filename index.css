@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: darkcyan;
+    width: 900px;
+    height: 900px;
+}
+
+.cover {
+    background-image: url(./img/School.jpg);
+    width: 1400px;
+    height: 1000px;
+    background-repeat: repeat-x;
+}
+
+.nav {
+    margin-top: 5px;
+    width: 450px;
+    height: 32px;
+    background: silver;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav ul li a {
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background: rgb(255, 14, 14);
+    color: rgb(255, 255, 255);
+}
+
+.nav ul li ul {
+    position: absolute;
+    background: rgb(237, 245, 130);
+    left: -9999px;
+}
+
+.nav ul li:hover ul {
+    left: 0px;
+}
+
+.nav ul li ul li {
+    padding: 15px 0px;
+}
+
+.school_name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: bisque;
+    margin-top: 100px;
+    text-shadow: 3px 2px rgb(253, 143, 143);
+}
+
+.school_name:hover {
+    color: whitesmoke;
+}
+
+.class {
+    padding: 360px 10px;
+}
+
+.class li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.class ul li a {
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.class ul li a:hover {
+    background: rgb(255, 14, 14);
+    color: rgb(255, 255, 255);
+}
+
+.class ul li ul {
+    position: absolute;
+    background: rgb(128, 250, 154);
+    left: -9999px;
+}
+
+.class ul li:hover ul {
+    left: 0px;
+}
+
+.class ul li ul li {
+    padding: 10px 0px;
+}
+
+.details {
+    position: relative;
+    color: whitesmoke;
+    top: 230px;
+    text-shadow: 2px 2px rgb(163, 163, 12);
+    font-size: 20px;
+}
+
+footer {
+    background: rebeccapurple;
+    margin-bottom: 200px;
+    height: 65px;
+    width: 1400px;
+    text-align: center;
+}
+
+.footer-text {
+    color: rgb(226, 255, 255);
+    line-height: 2;
+}
